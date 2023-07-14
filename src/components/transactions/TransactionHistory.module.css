@@ -1,0 +1,47 @@
+.transaction {
+        min-width: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: #f0f0f0;
+            padding-bottom: 60px;
+}
+
+.container {
+        background-color: #ffffff;
+            border-radius: 8px;
+            margin-left: auto;
+            margin-right: auto;
+}
+
+.transaction__header {
+    width: 132px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.transaction__cell {
+    text-align: center;
+    padding: 10px;
+}
+
+.transaction__history {
+    border-collapse: collapse;
+}
+
+.transaction__header {
+        border: 1px solid #ccc;
+    }
+
+.transaction__cell {
+    border: 1px solid #ccc; 
+}
+
+
+
+tbody tr:nth-child(even):nth-child(n+2) {
+    background-color: #f9f9f9;
+}
