@@ -2,10 +2,10 @@ import Profile from "./profile/Profile";
 import Statistics from "./statistics/Statistics";
 import Friends from "./friends/Friends";
 import TransactionHistory from "./transactions/TransactionHistory";
-import user from "./data/user.json";
-import data from "./data/data.json";
-import friends from './data/friends.json';
-import transactions from "./data/transactions.json";
+import user from "data/user.json";
+import data from "data/data.json";
+import friends from 'data/friends.json';
+import transactions from "data/transactions.json";
 
 
 export default function App() {
@@ -21,7 +21,7 @@ export default function App() {
         likes={user.stats.likes}
       />
 
-      <Statistics data={data} />
+      <Statistics title="Upload stats" data={data} />
       
       <Friends friends={friends} />
       
